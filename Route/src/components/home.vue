@@ -21,7 +21,13 @@
           quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
           adipisci velit.
         </p>
-        <button class="btn btn-outline-light" type="button">Read more</button>
+        <button
+          class="btn btn-outline-light"
+          type="button"
+          @click="router.push('/articles')"
+        >
+          Read more
+        </button>
       </div>
     </div>
     <div class="col-md-6">
@@ -40,3 +46,10 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useRouter, useRoute } from "vue-router";
+
+const router = useRouter();
+const route = useRoute();
+</script>

@@ -2,10 +2,6 @@
   <app-header></app-header>
   <div class="container">
     <router-view></router-view>
-    <!-- <home-component></home-component> -->
-    <!-- <articles-main></articles-main> -->
-    <!-- <article-comp></article-comp> -->
-    <!-- <contact-component></contact-component> -->
   </div>
   <app-footer></app-footer>
 </template>

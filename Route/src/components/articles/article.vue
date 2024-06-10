@@ -51,6 +51,10 @@ import axios from "axios";
 import { useRoute } from "vue-router";
 import { onMounted, ref, watch } from "vue";
 
+const props = defineProps(["articleID"]);
+
+console.log(props);
+
 const route = useRoute();
 const article = ref({});
 

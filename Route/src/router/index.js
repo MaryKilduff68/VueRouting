@@ -43,5 +43,6 @@ router.beforeEach((to, from) => {
 
   return true;
 });
+// Per route guards exist, section 75 example. 
 
 export default router;
